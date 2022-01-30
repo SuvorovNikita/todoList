@@ -29,3 +29,28 @@ body {
     padding: 60px 20px;
   }
 }
+.button {
+  color: #fff;
+  background: #4dd599;
+  border-radius: 4px;
+  border: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  &:hover {
+    background-color: darken(#4dd599, 5%);
+  }
+  &:active {
+    background-color: darken(#4dd599, 10%);
+  }
+}
+.field {
+  background: #ffffff;
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 12px;
+  width: 100%;
+  &:focus {
+    border-color: #dbdbdb;
+  }
+}
